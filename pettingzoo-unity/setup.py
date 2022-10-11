@@ -42,7 +42,7 @@ setup(
         "gym==0.21.0",
         "pettingzoo==1.13.1",
         "numpy==1.21.2",
-        f"mlagents_envs=={VERSION}",
+        f"mlagents_envs==0.28.0",
     ],
     cmdclass={"verify": VerifyVersionCommand},
 )
